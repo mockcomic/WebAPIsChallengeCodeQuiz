@@ -10,27 +10,28 @@
 </head>
 
 <body>
-
   <header>
     <button class="high-score">View high scores</button>
     <h2 class="timer">Time: 0</h2>
   </header>
 
-  <main class="page-content" id="page-content">
-    <div>
-      <p>
-        Question
-      </p>
-      <ul>
-        <button class="option-one">option-one</button>
-        <button class="option-two">option-two</button>
-        <button class="option-three">option-three</button>
-        <button class="option-four">option-four</button>
-      </ul>
-    </div>
-  </main>
+  <div class="container">
+    <div id="question">Question</div>
+    <ul id="answer-buttons" class='btn-grid'>
+      <button id = "btn-1" class="btn">Answer 1</button>
+      <button id = "btn-2" class="btn">Answer 2</button>
+      <button id = "btn-3" class="btn">Answer 3</button>
+      <button id = "btn-4" class="btn">Answer 4</button>
+    </ul>
+  </div>
 
+  <div class="controls">
+    <button id="start-btn" class='start-btn btn'>Start</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="./assets/js/script.js"></script>
+
 </body>
 
 </html>

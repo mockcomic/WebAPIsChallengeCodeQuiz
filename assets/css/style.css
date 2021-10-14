@@ -2,6 +2,9 @@
   box-sizing: border-box;
 }
 
+button {
+
+}
 :root {
   --primary: #44e9ff;
   --secondary: #497980;
@@ -29,11 +32,16 @@ header {
   align-items: center;
 }
 
-.page-content {
+.container {
   flex: 1;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 25px auto;
   width: 95%;
+}
+
+#answer-buttons {
+  display: flex;
+  flex-direction: column;
 }
