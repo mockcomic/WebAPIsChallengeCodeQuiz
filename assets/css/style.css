@@ -1,25 +1,17 @@
-* {
-  box-sizing: border-box;
-}
-
-button {
-
-}
 :root {
-  --primary: #44e9ff;
-  --secondary: #497980;
-  --tertiary: rgb(192, 246, 253);
-  --grey: #333;
-  font-size: 62.5%;
+  --color-neutral: blue;
+  --color-wrong: red;
+  --color-correct: green;
+  --bg-dark:#282C34;
+  --bg-purple:#6C57A6;
+  --bg-pink:#AC6881;
 }
 
 body {
-  background: #ededed;
   color: var(--grey);
   margin: 0;
   padding: 0;
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -37,11 +29,51 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 25px auto;
-  width: 95%;
+  /* margin: 25px auto;
+  width: 200px;
+  max-width: 80%;
+  border-radius: 5px; */
 }
 
 #answer-buttons {
   display: flex;
   flex-direction: column;
+}
+
+#result{
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.correct {
+  background: var(--color-correct)
+}
+
+.wrong {
+  background: var(--color-wrong)
+}
+
+.btn {
+  margin: 10px;
+  background-color: var(--bg-pink);
+  color:var();
+
+}
+
+.start-btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide{
+  display: none;
 }
