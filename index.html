@@ -11,8 +11,8 @@
 
 <body>
   <header>
-    <button class="high-score">View high scores</button>
-    <h2 class="timer">60 seconds remaining</h2>
+    <button id='high-score-btn'>View high scores</button>
+    <h2 id="timer" class="hide">60 seconds remaining</h2>
   </header>
 
   <div id="questions" class="container hide">
@@ -20,9 +20,20 @@
     <ul id="answer-buttons" class='btn-grid'></ul>
   </div>
 
+  <div id="high-score" class="container hide">
+    <input id="score"></input>
+    <button id="submit-btn">Submit</button>
+  </div>
+  
+  <ul id='score-list'class ='score-list hide'></ul>
+
   <div id="result"></div>
 
-  <div class="controls">
+  <div class='controls'>
+    <p>You have 60 seconds to answer 15 questions.
+      <br>Wrong answer removes 10 seconds from the clock.
+      <br>Good luck!
+    </p>
     <button id="start-btn" class='start-btn btn'>Start Quiz</button>
   </div>
 
