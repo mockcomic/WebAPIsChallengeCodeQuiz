@@ -1,5 +1,8 @@
 ## Week4Challenge-WebAPIsChallengeCodeQuiz
- 
+
+A coding quiz I made for the UC Berkeley bootcamp. 
+See if you can complete the quiz before the time runs out!
+
 # User Story
 AS A coding boot camp student
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
