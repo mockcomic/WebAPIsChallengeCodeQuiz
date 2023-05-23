@@ -1,33 +1,20 @@
-## Week4Challenge-WebAPIsChallengeCodeQuiz
+# Week 4 Challenge - Web APIs Challenge Code Quiz
 
-A coding quiz I made for the UC Berkeley bootcamp. 
-See if you can complete the quiz before the time runs out!
+This is a timed coding quiz developed as part of the UC Berkeley Bootcamp. It's a fun and effective way to gauge your understanding of JavaScript fundamentals. Try to complete the quiz before the time runs out!
 
-# User Story
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
+## User Story
 
-# Acceptance Criteria
+As a coding bootcamp student, I want to take a timed quiz on JavaScript fundamentals that stores high scores, allowing me to compare my progress with my peers.
 
-GIVEN I am taking a code quiz
+## Acceptance Criteria
 
-### WHEN I click the start button
+Success in this challenge means:
 
-* THEN a timer starts and I am presented with a question
- 
-### WHEN I answer a question
+- **Start the Quiz:** When I click the start button, a timer starts and I am presented with a question.
+- **Question Cycle:** When I answer a question, I am presented with another question.
+- **Incorrect Answers:** If I answer a question incorrectly, time is subtracted from the clock.
+- **Game Over:** The game is over when all questions are answered or the timer reaches 0.
+- **Score Storage:** When the game is over, I can save my initials and my score.
 
-* THEN I am presented with another question
+Compete against your peers and see how much you've learned in this JavaScript fundamentals quiz!
 
-## WHEN I answer a question incorrectly
-
-* THEN time is subtracted from the clock
-
-### WHEN all questions are answered or the timer reaches 0
-
-* THEN the game is over
-
-### WHEN the game is over
-
-* THEN I can save my initials and score
